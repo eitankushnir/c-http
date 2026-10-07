@@ -1,8 +1,10 @@
 # C Library For Making HTTP Servers
+Single Thread HTTP Server with concurrency achieved using my [coroutines library](https://github.com/eitankushnir/c-coroutines).  
+Basically like ExpressJS but written in C to be used in C. Only works on linux probably.
 
 ## Installation
 First compile the project into a static library with the Makefile.
-```
+```bash
 git clone https://github.com/eitankushnir/c-http.git
 cd c-http
 make
